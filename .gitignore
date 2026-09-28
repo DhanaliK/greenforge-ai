@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML model files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+reports/generated/git init
+git status --short
